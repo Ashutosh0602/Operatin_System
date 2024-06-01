@@ -35,10 +35,10 @@ def fcfs_scheduling(processes):
               f"{process.completion_time}\t\t{process.turnaround_time}\t\t{process.waiting_time}")
 
 processes = [
-    Process(1, 0, 5),
-    Process(2, 1, 3),
-    Process(3, 2, 8),
-    Process(4, 3, 6),
+    Process(1, 6, 2),
+    Process(2, 8, 5),
+    Process(3, 7, 1),
+    Process(4, 3, 0)
 ]
 
 fcfs_scheduling(processes)
